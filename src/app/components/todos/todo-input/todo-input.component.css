@@ -1,0 +1,25 @@
+
+#input-field {
+    padding: 10px;
+    padding-right: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#add-btn {
+    padding: 10px 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: #4b87c7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    gap: 5px;
+}
+
+#add-btn:hover {
+    background-color: #0056b3;
+}
