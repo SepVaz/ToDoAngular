@@ -1,0 +1,15 @@
+<div id="todos">
+  <app-todo-input ></app-todo-input> <!-- (todoSubmit)="onTodoSubmit($event)" -->
+
+   @if(todosList.length > 0){
+    @for(todo of todosList; track $index){
+    <app-todo 
+    [todo]="todo" ></app-todo>
+}
+}
+
+@else {
+    <p>No ToDo's added yet!</p>
+}
+   
+</div>

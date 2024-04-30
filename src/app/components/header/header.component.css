@@ -1,0 +1,11 @@
+
+
+h2 {
+    color: #000000;
+    background-color: rgb(202, 181, 223);
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+}
